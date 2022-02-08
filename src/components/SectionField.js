@@ -10,7 +10,7 @@ export default class SectionField extends React.Component {
         <input
           id={field.name}
           type={field.type}
-          placeholder={field.name}
+          placeholder={field.placeholder}
         ></input>
       </div>
     );
