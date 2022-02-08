@@ -1,0 +1,10 @@
+.section-field {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+
+.section-field > input {
+  padding: 0.5rem;
+}

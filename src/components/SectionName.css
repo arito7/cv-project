@@ -1,0 +1,9 @@
+.section-name {
+  display: grid;
+  justify-items: start;
+  width: 100%;
+}
+
+.section-name > hr {
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+.field-set {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  transition-property: color, background-color;
+  transition-duration: 500ms;
+  animation-name: 'enterAnim';
+  animation-duration: 500ms;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.field-set.highlight {
+  background-color: rgba(236, 136, 136, 0.466);
+  color: red;
+}
+
+.field-set.field-set.highlight > button {
+  color: black;
+}
+
+.field-set > ul {
+  display: grid;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.field-set > button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(230, 91, 91);
+}
+
+@keyframes enterAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

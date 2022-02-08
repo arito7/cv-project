@@ -1,0 +1,33 @@
+.section {
+  --border-radius: 0.25rem;
+  --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: grid;
+  justify-content: center;
+  background-color: #fff;
+  width: 80%;
+  position: relative;
+  margin: 1rem;
+  border-radius: var(--border-radius);
+  padding: 2rem 1rem;
+  box-shadow: var(--shadow);
+}
+
+.section-fields {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.section > .add {
+  border: none;
+  height: 2rem;
+  width: 4rem;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: green;
+  position: absolute;
+  box-shadow: var(--shadow);
+  border-radius: var(--border-radius);
+  bottom: -1rem;
+  left: calc(50% - 2rem);
+}
