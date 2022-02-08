@@ -1,0 +1,8 @@
+.header {
+  --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: grid;
+  padding: 1.5rem;
+  width: 100%;
+  box-shadow: var(--shadow);
+  background-color: white;
+}
